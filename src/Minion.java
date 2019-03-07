@@ -14,12 +14,35 @@ public class Minion {
 			this.color=color;
 			this.master=master;
 		}
-		void setMaster(String name) {
-			this.name=name;
-		}
-		void getMaster() {
+		
+		String getName() {
+			return this.name;
 			
+		}
+		int getEyes() {
+			return this.eyes;
+		}
+		String getColor() {
+			return this.color;
+		}
+		String getMaster() {
+			return this.master;
+			
+		}
+		void setMaster(String  Master) {
+			this.master= Master;
+		}
+		void setName(String Name) {
+			this.name=Name;
+			
+		}
+		void setEyes(int Eyes) {
+			this.eyes = Eyes;
+		
+		}
+		void setColor(String Color) {
+			this.color=Color;
 		}
 		}
 
-}
+

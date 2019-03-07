@@ -32,6 +32,7 @@ This is because there is no Minion class in the package.
     
  */
 
+
 public class MinionTest {
 
 	
@@ -41,12 +42,12 @@ public class MinionTest {
 		assertEquals("Stuart", stuart.getName());
 		assertEquals(1, stuart.getEyes());
 		assertEquals("yellow", stuart.getColor());
-
 		Minion dave = new Minion("Dave", 2, "yellow", "");
 		assertEquals("Dave", dave.getName());
 		assertEquals(2, dave.getEyes());
 		assertEquals("yellow", dave.getColor());
 	}
+	
 
 	@Test
 	public void testSetters() {
@@ -57,6 +58,37 @@ public class MinionTest {
 
 		stuart.setMaster("Napoleon");
 		assertEquals("Napoleon", stuart.getMaster());
+	}
+	
+
+	
+
+
+	
+		public void Minion(String string, int i, String string2, String string3) {
+			// TODO Auto-generated constructor stub
+		}
+		public Object getMaster() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		public void setMaster(String string) {
+			// TODO Auto-generated method stub
+			
+		}
+		public Object getColor() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		public Object getEyes() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		public Object getName() {
+			// TODO Auto-generated method stub
+			return null;
+		
+		
 	}
 
 }

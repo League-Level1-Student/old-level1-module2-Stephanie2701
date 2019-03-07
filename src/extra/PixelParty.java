@@ -52,7 +52,7 @@ public class PixelParty {
 		System.out.println("Drawing a circle at (" + x + "," + y + ") with radius " + r);
 		for(int x2 = 0; x2 < width; x2++) {
 			for(int y2 = 0; y2 < height; y2++) {
-				if(getDistance(x, y, x2, y2) == r) {
+				if(getDistance(x, y, x2, y2) == r) {†
 					if(isRainbow) {
 						img.setRGB(x2, y2, getRandomColor());
 					}
